@@ -26,6 +26,9 @@ header {
     width: 100%;
     color: #7bf1a8;
     text-shadow: black 0px 0px 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -52,6 +55,10 @@ h1 {
     background-color: #7bf1a8;
     text-transform: uppercase;
 }
+
+
+
+
 
 /* main */
 main {
