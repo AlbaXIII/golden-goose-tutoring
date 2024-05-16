@@ -89,3 +89,45 @@ main {
 footer {
     background-color: #ffef9f;
 }
+
+/* media query 1 - tablets and larger */
+@media screen and (min-width: 769px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    menu {
+        display: flex;
+    }
+
+    menu > li {
+        padding-left: 1rem;
+    }
+
+    .menu-toggle-label {
+        display: none;
+    }
+
+    #main-title {
+        font-size: 300%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* main */
+    main {
+        margin-top: 79px;
+    }
+}
+
+/* media query 2 - laptops and larger */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #7bf1a8;
+    }
+
+}
