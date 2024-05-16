@@ -56,9 +56,28 @@ h1 {
     text-transform: uppercase;
 }
 
+/* menu nav bar style */
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding 0 1rem;
+    display: none;
+    top: 100%;
+}
 
+/* dropdown toggle */
+#menu-toggle:checked~nav {
+    display: block;
+}
 
+#menu-toggle {
+    display: none;
+}
 
+.menu-toggle-label {
+    font-size: 2rem;
+}
 
 /* main */
 main {
