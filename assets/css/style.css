@@ -91,9 +91,23 @@ main {
     background: url('../images/pexels-gustavo-fring-4173114.jpg') no-repeat center center/cover;
 }
 
+#text-box {
+    text-align: center;
+    font-size: 100%;
+    position: absolute;
+    width: 100%;
+    min-height: 200px;
+    background-color: #ffd6e0;
+    bottom:50px;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+
+
 /* footer */
 footer {
     background-color: #ffef9f;
+    z-index: 99;
 }
 
 #socials {
