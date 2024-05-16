@@ -85,6 +85,12 @@ main {
     flex: 1 0 auto;
 }
 
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-gustavo-fring-4173114.jpg') no-repeat center center/cover;
+}
+
 /* footer */
 footer {
     background-color: #ffef9f;
