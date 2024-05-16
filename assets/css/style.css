@@ -14,6 +14,11 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    font-family: 'Teachers', sans-serif;
+}
+
+h1 {
+    font-family: 'Patrick Hand', sans-serif; 
 }
 
 /* header */
