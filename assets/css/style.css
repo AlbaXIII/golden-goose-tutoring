@@ -100,11 +100,12 @@ footer {
         padding-right: 1rem;
     }
 
-    menu {
+    #menu {
         display: flex;
+        font-size: 1.6rem;
     }
 
-    menu > li {
+    #menu > li {
         padding-left: 1rem;
     }
 
