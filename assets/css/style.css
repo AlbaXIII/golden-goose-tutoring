@@ -1,3 +1,6 @@
+/* google font import link */
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
 /* override browser defaults */
 * {
     padding: 0;
