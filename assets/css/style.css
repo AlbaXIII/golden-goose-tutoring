@@ -1,0 +1,30 @@
+/* override browser defaults */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* general style */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+/* header */
+header {
+    background-color: #ffef9f;
+}
+
+/* main */
+main {
+    background-color: antiquewhite;
+    flex: 1 0 auto;
+}
+
+/* footer */
+footer {
+    background-color: #ffef9f;
+}
