@@ -90,6 +90,21 @@ footer {
     background-color: #ffef9f;
 }
 
+#socials {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 175%;
+    padding: 5%;
+    color: #7bf1a8;
+    text-shadow: 0px 0px 1px black;
+}
+
 /* media query 1 - tablets and larger */
 @media screen and (min-width: 769px) {
     /* header */
