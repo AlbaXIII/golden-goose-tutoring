@@ -17,13 +17,40 @@ body {
     font-family: 'Teachers', sans-serif;
 }
 
-h1 {
-    font-family: 'Patrick Hand', sans-serif; 
-}
-
 /* header */
 header {
     background-color: #ffef9f;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    color: #7bf1a8;
+    text-shadow: black 0px 0px 2px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Patrick Hand', sans-serif; 
+    letter-spacing: 2px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    background-color: #7bf1a8;
+    text-transform: uppercase;
 }
 
 /* main */
