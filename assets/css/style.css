@@ -109,6 +109,43 @@ main {
     padding: 5px;
 }
 
+#about {
+    text-align: center;
+}
+
+#about-header {
+    font-size: 120%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 3px black;
+}
+
+#profile-picture {
+    height: 250px;
+    width: 100%;
+    background: url('../images/pexels-gustavo-fring-4173104.jpg') no-repeat center center/cover;
+    background-size: contain;
+    background-position: top;
+    border-radius: 25px;
+    box-shadow: inset;
+}
+
+#break {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    color: #7bf1a8;
+}
+
+#profile h2 {
+    text-shadow: 0px 0px 3px black;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+#profile p {
+    text-shadow: 0px 0px 2px black;
+}
+
 /* footer */
 footer {
     background-color: #ffef9f;
