@@ -85,6 +85,7 @@ main {
     flex: 1 0 auto;
 }
 
+/* index styles */
 #hero {
     height: 600px;
     width: 100%;
@@ -109,6 +110,7 @@ main {
     padding: 5px;
 }
 
+/* about styles */
 #about {
     text-align: center;
 }
