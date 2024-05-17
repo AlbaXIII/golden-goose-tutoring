@@ -148,6 +148,34 @@ main {
     text-shadow: 0px 0px 2px black;
 }
 
+/* testimonial styles */
+#testimonial-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 3px black;
+}
+
+#testimonials {
+    padding: 50px;
+}
+
+#testimonial-one {
+    text-align: left;
+}
+
+#testimonial-two {
+    text-align: right;
+}
+
+#testimonial-three {
+    text-align: left;
+}
+
+#testimonial-four {
+    text-align: right;
+}
+
 /* footer */
 footer {
     background-color: #ffef9f;
