@@ -183,16 +183,18 @@ main {
 /* testimonial styles */
 #testimonial-header {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 15px;
+    margin-top: 42px;
     color: gray;
     font-family: 'Patrick Hand', sans-serif;
     font-size: 6vw;
+    background-color: #90F1EF;
+    padding-top: 35px;
+    letter-spacing: 2px;
 }
 
 #testimonials {
     padding: 50px;
-    background-color: rgba(114, 241, 239, 0.4);
+    background-color: #90F1EF;
     align-items: center;
     color: gray;
 }
