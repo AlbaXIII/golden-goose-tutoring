@@ -203,6 +203,15 @@ main {
     color: gray;
 }
 
+#testimonials h3 {
+    text-align: center;
+    font-family: 'Patrick Hand' , sans-serif;
+    font-size: 200%;
+    color: gray;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
 #testimonials i {
     font-size: 1rem;
     padding: 5px;
