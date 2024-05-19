@@ -180,14 +180,6 @@ main {
     font-family: 'Patrick Hand', sans-serif;
 }
 
-#services img {
-    float: left;
-    border: 1px black;
-    height: 15%;
-    width: 15%;
-    margin-left: 25px;
-}
-
 #services p {
     text-align: right;
 }
@@ -198,16 +190,13 @@ main {
     margin-top: 42px;
     color: gray;
     font-family: 'Patrick Hand', sans-serif;
-    font-size: 6vw;
+    font-size: 200%;
     background-color: #90F1EF;
-    padding-top: 35px;
     letter-spacing: 2px;
 }
 
 #testimonials {
-    padding: 50px;
     background-color: #90F1EF;
-    align-items: center;
     color: gray;
 }
 
@@ -221,24 +210,29 @@ main {
 }
 
 #testimonials i {
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 5px;
 }
 
 #testimonial-one {
     text-align: left;
+    padding: 15px;
+    font-size: 1rem;
 }
 
 #testimonial-two {
     text-align: right;
+    padding: 15px;
 }
 
 #testimonial-three {
     text-align: left;
+    padding: 15px;
 }
 
 #testimonial-four {
     text-align: right;
+    padding: 15px;
 }
 
 /* contact styles */
