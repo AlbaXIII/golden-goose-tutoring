@@ -180,6 +180,14 @@ main {
     font-family: 'Patrick Hand', sans-serif;
 }
 
+#services img {
+    float: left;
+    border: 1px black;
+    height: 15%;
+    width: 15%;
+    margin-left: 25px;
+}
+
 #services p {
     text-align: right;
 }
