@@ -248,6 +248,7 @@ main {
 
 #form {
     color: gray;
+    text-align: center;
 }
 
 #form > h2 {
@@ -258,12 +259,6 @@ main {
 
 #form > h3 {
     text-align: center;
-}
-
-form > input, label {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
 }
 
 #contact-details {
