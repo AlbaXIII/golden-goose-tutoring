@@ -171,6 +171,10 @@ main {
     padding: 0 10px;
 }
 
+.break {
+    border:1px solid gray;
+}
+
 /* services styles */
 #services {
     margin-top: 10px;
@@ -264,10 +268,13 @@ form > input, label {
 
 #contact-details {
     color: gray;
+    background-color: #90F1EF;
+    padding-top: 10px;
 }
 
 #contact-details i {
     padding-right:5px;
+    padding-left:5px;
 }
 
 /* confirmation styles */
