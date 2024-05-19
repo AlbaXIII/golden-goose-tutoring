@@ -91,15 +91,19 @@ main {
 }
 
 /* index styles */
+#main-image img {
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
 #text-box {
     text-align: center;
     font-size: 100%;
     width: 100%;
-    min-height: 200px;
     background-color: #ffd6e0;
     bottom: 95px;
-    padding-top: 50px;
     color: gray;
+    padding-bottom: 10px;
 }
 
 #text-box h2 {
@@ -154,7 +158,7 @@ main {
 
 #profile {
     margin-top: 10px;
-    margin-bottom: 0;
+    padding-bottom: 10px;
 }
 
 #profile h2 {
