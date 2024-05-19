@@ -91,40 +91,49 @@ main {
 }
 
 /* index styles */
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url('../images/pexels-gustavo-fring-4173114.jpg') no-repeat center center/cover;
-}
-
 #text-box {
     text-align: center;
     font-size: 100%;
-    position: absolute;
     width: 100%;
     min-height: 200px;
     background-color: #ffd6e0;
     bottom: 95px;
-    padding-top: 30px;
-    text-shadow: 0px 0px 1px black;
+    padding-top: 50px;
+    color: gray;
+}
+
+#text-box h2 {
+    font-size: 8vw;
+    font-family: 'Patrick Hand', sans-serif; 
+    color: gray;
+}
+
+#text-box h3 {
+    font-size: 4vw;
+    margin-top: 0px;
 }
 
 .contact-button {
-    font-family: inherit;
+    font-family: 'Patrick Hand' , sans-serif;
     background-color: #7bf1a8;
     padding: 5px;
+    border-radius: 25px;
 }
 
 /* about styles */
 #about {
     text-align: center;
+    background-color: #90F1EF;
+    color: gray;
 }
 
 #about-header {
     font-size: 120%;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    text-shadow: 0px 0px 3px black;
+    background-color: #90F1EF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand' , sans-serif;
+    margin-bottom: 10px;
 }
 
 #profile-picture {
@@ -133,7 +142,7 @@ main {
     background: url('../images/pexels-gustavo-fring-4173104.jpg') no-repeat center center/cover;
     background-size: contain;
     background-position: top;
-    border-radius: 25px;
+    border-radius: 50px;
     box-shadow: inset;
 }
 
@@ -143,14 +152,21 @@ main {
     color: #7bf1a8;
 }
 
-#profile h2 {
-    text-shadow: 0px 0px 3px black;
+#profile {
     margin-top: 10px;
-    letter-spacing: 2px;
+    margin-bottom: 0;
 }
 
-#profile p {
-    text-shadow: 0px 0px 2px black;
+#profile h2 {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-family: 'Patrick Hand', sans-serif;
+}
+
+#services {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
 }
 
 /* testimonial styles */
@@ -240,6 +256,7 @@ footer {
         position: relative;
         width: fit-content;
         padding-right: 1rem;
+        background-color:#ffef9f
     }
 
     #menu {
