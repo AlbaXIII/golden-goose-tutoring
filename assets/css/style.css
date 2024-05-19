@@ -167,6 +167,10 @@ main {
     font-family: 'Patrick Hand', sans-serif;
 }
 
+#profile p {
+    padding: 0 10px;
+}
+
 /* services styles */
 #services {
     margin-top: 10px;
@@ -182,6 +186,7 @@ main {
 
 #services p {
     text-align: right;
+    padding: 0 10px;
 }
 
 /* testimonial styles */
