@@ -19,21 +19,19 @@ body {
 
 /* header */
 header {
-    background-color: #ffef9f;
-    padding: 0 1rem;
+    padding: 0 2rem 5px;
     position: fixed;
     z-index: 99;
     width: 100%;
-    color: #7bf1a8;
-    text-shadow: black 0px 0px 2px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    border-bottom: 2px solid black;
 }
 
 header a {
     text-decoration: none;
-    color: inherit;
 }
 
 h1 {
@@ -69,7 +67,6 @@ nav {
     display: none;
     top: 100%;
     text-align: right;
-    background-color: #ffef9f;
 }
 
 /* dropdown toggle */
@@ -87,7 +84,6 @@ nav {
 
 /* main */
 main {
-    background-color: #ffd6e0;
     flex: 1 0 auto;
 }
 
@@ -101,7 +97,6 @@ main {
     text-align: center;
     font-size: 100%;
     width: 100%;
-    background-color: #ffd6e0;
     bottom: 95px;
     color: gray;
     padding-bottom: 10px;
@@ -120,7 +115,6 @@ main {
 
 .contact-button {
     font-family: 'Patrick Hand' , sans-serif;
-    background-color: #7bf1a8;
     padding: 5px;
     border-radius: 25px;
 }
@@ -128,17 +122,16 @@ main {
 /* about styles */
 #about {
     text-align: center;
-    background-color: #90F1EF;
     color: gray;
 }
 
 #about-header {
     font-size: 120%;
-    background-color: #90F1EF;
     margin: 0;
     padding: 0;
     font-family: 'Patrick Hand' , sans-serif;
     margin-bottom: 10px;
+    letter-spacing: 2px;
 }
 
 #profile-picture {
@@ -154,7 +147,6 @@ main {
 #break {
     margin-top: 2em;
     margin-bottom: 1em;
-    color: #7bf1a8;
 }
 
 #profile {
@@ -178,8 +170,7 @@ main {
 
 /* services styles */
 #services {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     color: gray;
 }
 
@@ -189,11 +180,6 @@ main {
     font-family: 'Patrick Hand', sans-serif;
 }
 
-#services p {
-    text-align: right;
-    padding: 0 10px;
-}
-
 /* testimonial styles */
 #testimonial-header {
     text-align: center;
@@ -201,12 +187,10 @@ main {
     color: gray;
     font-family: 'Patrick Hand', sans-serif;
     font-size: 200%;
-    background-color: #90F1EF;
     letter-spacing: 2px;
 }
 
 #testimonials {
-    background-color: #90F1EF;
     color: gray;
 }
 
@@ -280,7 +264,6 @@ main {
 
 #contact-details {
     color: gray;
-    background-color: #90F1EF;
     padding-top: 10px;
     font-family: 'Patrick Hand', sans-serif;
 }
