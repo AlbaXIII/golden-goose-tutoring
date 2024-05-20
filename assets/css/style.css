@@ -69,6 +69,7 @@ nav {
     display: none;
     top: 100%;
     text-align: right;
+    background-color: #e6e8d6;
 }
 
 /* dropdown toggle */
@@ -82,6 +83,7 @@ nav {
 
 .menu-toggle-label {
     font-size: 2rem;
+    color: #3e6cd6;
 }
 
 /* main */
