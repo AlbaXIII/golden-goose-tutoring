@@ -251,6 +251,18 @@ main {
     text-align: center;
 }
 
+#form label {
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+#form input {
+    display: flex;
+    width: 50%;
+    height: 3vh;
+}
+
 #form > h2 {
     text-align: center;
     margin-top: 50px;
