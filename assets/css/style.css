@@ -19,7 +19,7 @@ body {
 
 /* header */
 header {
-    padding: 0 2rem 5px;
+    padding: 0 1rem 8px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -85,6 +85,7 @@ nav {
 /* main */
 main {
     flex: 1 0 auto;
+    background-color: #e6e8d6;
 }
 
 /* index styles */
@@ -98,14 +99,14 @@ main {
     font-size: 100%;
     width: 100%;
     bottom: 95px;
-    color: gray;
+    color: black;
     padding-bottom: 10px;
 }
 
 #text-box h2 {
     font-size: 8vw;
     font-family: 'Patrick Hand', sans-serif; 
-    color: gray;
+    color: black;
 }
 
 #text-box h3 {
@@ -122,7 +123,7 @@ main {
 /* about styles */
 #about {
     text-align: center;
-    color: gray;
+    color: black;
 }
 
 #about-header {
@@ -165,13 +166,13 @@ main {
 }
 
 .break {
-    border:1px solid gray;
+    border:1px solid black;
 }
 
 /* services styles */
 #services {
     margin: 10px;
-    color: gray;
+    color: black;
 }
 
 #services-header {
@@ -184,21 +185,21 @@ main {
 #testimonial-header {
     text-align: center;
     margin-top: 42px;
-    color: gray;
+    color: black;
     font-family: 'Patrick Hand', sans-serif;
     font-size: 200%;
     letter-spacing: 2px;
 }
 
 #testimonials {
-    color: gray;
+    color: black;
 }
 
 #testimonials h3 {
     text-align: center;
     font-family: 'Patrick Hand' , sans-serif;
     font-size: 200%;
-    color: gray;
+    color: black;
     letter-spacing: 2px;
     text-decoration: none;
 }
@@ -232,7 +233,7 @@ main {
 /* contact styles */
 
 #form {
-    color: gray;
+    color: black;
     text-align: center;
 }
 
@@ -263,7 +264,7 @@ main {
 }
 
 #contact-details {
-    color: gray;
+    color: black;
     padding-top: 10px;
     font-family: 'Patrick Hand', sans-serif;
 }
@@ -289,8 +290,8 @@ iframe {
 
 /* footer */
 footer {
-    background-color: #ffef9f;
     z-index: 99;
+    background-color: #e6e8d6;
 }
 
 #socials {
@@ -304,7 +305,6 @@ footer {
 #socials i {
     font-size: 175%;
     padding: 5%;
-    color: #7bf1a8;
     text-shadow: 0px 0px 1px black;
 }
 
@@ -316,7 +316,6 @@ footer {
         position: relative;
         width: fit-content;
         padding-right: 1rem;
-        background-color:#ffef9f
     }
 
     #menu {
@@ -347,7 +346,7 @@ footer {
 /* media query 2 - laptops and larger */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #7bf1a8;
+        border-bottom: 1px solid black;
     }
 
 }
