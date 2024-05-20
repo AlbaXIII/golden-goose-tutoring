@@ -99,7 +99,7 @@ main {
 
 #text-box {
     text-align: center;
-    font-size: 100%;
+    font-size: 1.6rem;
     width: 100%;
     bottom: 95px;
     color: black;
@@ -133,7 +133,6 @@ main {
 }
 
 #about-header {
-    font-size: 120%;
     margin: 0;
     padding: 0;
     font-family: 'Patrick Hand' , sans-serif;
@@ -178,6 +177,9 @@ main {
 #services {
     margin: 10px;
     color: black;
+}
+
+ul {
     list-style-type: none;
 }
 
@@ -362,6 +364,15 @@ footer {
     
     #services {
         padding-left: 10px;
+        font-size: 120%;
+    }
+
+    #services-list {
+        padding-top: 25px;
+    }
+
+    #services-list li {
+        padding-bottom: 25px;
     }
 
     hr {
