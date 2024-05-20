@@ -178,6 +178,7 @@ main {
 #services {
     margin: 10px;
     color: black;
+    list-style-type: none;
 }
 
 #services-header {
@@ -352,6 +353,21 @@ footer {
     main {
         margin-top: 79px;
     }
+
+    /* index */
+    #about {
+        float: left;
+        width: 50%;
+    }
+    
+    #services {
+        padding-left: 10px;
+    }
+
+    hr {
+        display: none;
+    }
+
 }
 
 /* media query 2 - laptops and larger */
