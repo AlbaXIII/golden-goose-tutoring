@@ -357,11 +357,17 @@ footer {
     #about {
         float: left;
         width: 50%;
+        font-size: 120%;
     }
     
+    #about p {
+        padding: 0 20px;
+    }
+
     #services {
         padding-left: 10px;
         font-size: 120%;
+        margin-top: 0;
     }
 
     #services-list {
@@ -369,7 +375,7 @@ footer {
     }
 
     #services-list li {
-        padding-bottom: 25px;
+        padding-bottom: 45px;
     }
 
     /* testimonials */
