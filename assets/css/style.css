@@ -38,7 +38,7 @@ header a {
 
 h1 {
     font-family: 'Teachers', sans-serif; 
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color: #e78628;
 }
 
@@ -90,6 +90,7 @@ nav {
 main {
     flex: 1 0 auto;
     background-color: #e6e8d6;
+    flex-shrink: inherit;
 }
 
 /* index styles */
@@ -348,7 +349,6 @@ footer {
     }
 
     #main-title {
-        font-size: 300%;
         line-height: 75px;
         margin: 0 0.5rem;
         background-color: #e6e8d6;
