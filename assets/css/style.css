@@ -100,7 +100,7 @@ main {
 
 #text-box {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     width: 100%;
     bottom: 95px;
     color: black;
@@ -108,14 +108,16 @@ main {
 }
 
 #text-box h2 {
-    font-size: 8vw;
+    font-size: 3rem;
     font-family: 'Patrick Hand', sans-serif; 
     color: black;
     letter-spacing: 2px;
+    line-height: 40px;
+    padding-bottom: 20px;
 }
 
 #text-box h3 {
-    font-size: 4vw;
+    font-size:inherit;
     margin-top: 0px;
 }
 
