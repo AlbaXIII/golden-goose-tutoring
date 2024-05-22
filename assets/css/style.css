@@ -105,14 +105,14 @@ main {
     font-size: 1.5rem;
     width: 100%;
     bottom: 95px;
-    color: black;
+    color: #333;
     padding: 10px;
 }
 
 #text-box h2 {
     font-size: 3rem;
     font-family: 'Patrick Hand', sans-serif; 
-    color: black;
+    color: #333;
     letter-spacing: 2px;
     line-height: 40px;
     padding-bottom: 20px;
@@ -135,7 +135,7 @@ main {
 /* about styles */
 #about {
     text-align: center;
-    color: black;
+    color: #333;
 }
 
 #about-header {
@@ -177,7 +177,7 @@ main {
 /* services styles */
 #services {
     margin: 10px;
-    color: black;
+    color: #333;
 }
 
 ul {
@@ -195,21 +195,21 @@ ul {
 #testimonial-header {
     text-align: center;
     margin-top: 42px;
-    color: black;
+    color: #333;
     font-family: 'Patrick Hand', sans-serif;
     font-size: 3rem;
     letter-spacing: 2px;
 }
 
 #testimonials {
-    color: black;
+    color: #333;
 }
 
 #testimonials h3 {
     text-align: center;
     font-family: 'Patrick Hand' , sans-serif;
     font-size: 200%;
-    color: black;
+    color: #333;
     letter-spacing: 2px;
     text-decoration: none;
 }
@@ -241,9 +241,10 @@ ul {
 /* contact styles */
 
 #form {
-    color: black;
+    color: #333;
     text-align: center;
     padding-bottom: 10px;
+    font-size: 14px;
 }
 
 #form form {
@@ -291,7 +292,7 @@ ul {
 }
 
 #contact-details {
-    color: black;
+    color: #333;
     padding-top: 10px;
     font-family: 'Patrick Hand', sans-serif;
 }
@@ -313,7 +314,7 @@ iframe {
     padding-top: 400px;
     padding-bottom: 60px;
     font-family: 'Patrick Hand', sans-serif;
-    color: black;
+    color: #333;
 }
 
 /* footer */
