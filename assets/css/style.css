@@ -219,25 +219,18 @@ ul {
     padding: 5px;
 }
 
-#testimonial-one {
+#testimonial-left {
     text-align: left;
     padding: 15px;
-    font-size: 1rem;
+    line-height: 27px;
+    font-size: 1em;
 }
 
-#testimonial-two {
+#testimonial-right {
     text-align: right;
     padding: 15px;
-}
-
-#testimonial-three {
-    text-align: left;
-    padding: 15px;
-}
-
-#testimonial-four {
-    text-align: right;
-    padding: 15px;
+    line-height: 27px;
+    font-size: 1em;
 }
 
 /* contact styles */
@@ -380,6 +373,13 @@ footer {
 
     #services-list li {
         padding-bottom: 25px;
+    }
+
+    /* testimonials */
+    #testimonial-left, #testimonial-right {
+        padding-top: 75px;
+        padding-bottom: 75px;
+        font-size: 1.5rem;
     }
 
     /* contact */
