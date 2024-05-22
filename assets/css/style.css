@@ -321,6 +321,7 @@ iframe {
 footer {
     z-index: 99;
     background-color: #e6e8d6;
+    border-top: 1px solid #e78628;
 }
 
 #socials {
@@ -335,6 +336,10 @@ footer {
     font-size: 175%;
     padding: 5%;
     color: #e78628;
+}
+
+#socials i:hover {
+    color: #3e6cd6;
 }
 
 /* media query 1 - tablets and larger */
