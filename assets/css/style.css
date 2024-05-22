@@ -127,6 +127,7 @@ main {
     border-radius: 25px;
     background-color: #3e6cd6;
     color: white;
+    font-size: 1.2rem;
 }
 
 /* about styles */
@@ -244,7 +245,7 @@ ul {
     text-align: left;
 }
 
-#form input {
+#name-inputs input, #email-input input {
     display: flex;
     height: 3vh;
 }
@@ -263,6 +264,15 @@ ul {
 
 #form > h3 {
     text-align: center;
+}
+
+.submit-button {
+    font-family: 'Patrick Hand' , sans-serif;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #3e6cd6;
+    color: white;
+    font-size: 1.2rem;
 }
 
 #contact-details {
