@@ -70,12 +70,12 @@ nav {
     top: 100%;
     text-align: right;
     background-color: #e6e8d6;
-    border-bottom: 2px solid #e78628;
 }
 
 /* dropdown toggle */
 #menu-toggle:checked~nav {
     display: block;
+    border-bottom: 2px solid #e78628;
 }
 
 #menu-toggle {
@@ -246,6 +246,10 @@ ul {
     padding-bottom: 10px;
 }
 
+#form form {
+    padding-left: 25px;
+}
+
 #form label {
     display: flex;
     flex-direction:column;
@@ -255,6 +259,10 @@ ul {
 #name-inputs input, #email-input input {
     display: flex;
     height: 3vh;
+}
+
+#email-input input {
+    width: 75%;
 }
 
 #form textarea {
