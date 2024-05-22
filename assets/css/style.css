@@ -396,7 +396,9 @@ footer {
     }
     
     #about p {
-        padding: 0 20px;
+        padding: 0 20 20 20px;
+        max-width: 50%;
+        margin-left: 25%;
     }
 
     #services {
