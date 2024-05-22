@@ -245,6 +245,7 @@ ul {
 #form {
     color: black;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 #form label {
@@ -261,6 +262,7 @@ ul {
 #form textarea {
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 #form > h2 {
@@ -357,6 +359,10 @@ footer {
         margin-top: 79px;
     }
 
+    hr {
+        display: none;
+    }
+
     /* index */
     #about {
         float: left;
@@ -376,8 +382,38 @@ footer {
         padding-bottom: 25px;
     }
 
-    hr {
-        display: none;
+    /* contact */
+    #form {
+        float: left;
+        width: 50%;
+        font-size: 2vw;
+        padding-left: 20px;
+    }
+
+    form {
+        padding-top: 50px;
+    }
+
+    #name-inputs input {
+        width: 50%;
+    }
+
+    #email-input input {
+        width: 75%;
+    }
+
+    #form textarea {
+        width: 90%;
+        height: 90%;
+    }
+
+    #contact-details {
+        font-size: 2vw;
+        padding-top: 50px;
+    }
+
+    #contact-details iframe {
+        width: 45%;
     }
 
 }
