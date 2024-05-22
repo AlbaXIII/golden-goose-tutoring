@@ -233,8 +233,12 @@ ul {
     font-size: 1em;
 }
 
-#review-link a:link {
+#review-link a {
     text-decoration: none;
+    color: #333;
+}
+
+#review-link a:hover {
     color: #3e6cd6;
 }
 
@@ -410,6 +414,10 @@ footer {
     }
 
     /* testimonials */
+    #testimonials {
+        margin:0 400px;
+    }
+
     #testimonial-left, #testimonial-right {
         padding-top: 75px;
         padding-bottom: 75px;
