@@ -28,6 +28,7 @@ As this will be her first time going freelance, she will need an accessible, fun
 * __Testimonials page__
     * For a parent to choose a tutoring service, word of mouth is often a very important factor in the decision to use a particular tutor. Therefore having a standalone testimonials page ensures that a whole page is given over to this information, as references are very important in engagement with parents and teachers.
     * There are four testimonials on the page, with the contributors names in bold and favicon quotation marks at the start and end for a little flair, and to punctuate the text blocks.
+    * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in a larger font and centered position to draw the eye of the user.
 
 * __Contact page__
     * As with the main page, the following sections are displayed sequentially on mobiles and side-by-side on devices of XX pixels and larger.
