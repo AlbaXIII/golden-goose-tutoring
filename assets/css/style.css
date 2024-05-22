@@ -70,6 +70,7 @@ nav {
     top: 100%;
     text-align: right;
     background-color: #e6e8d6;
+    border-bottom: 2px solid #e78628;
 }
 
 /* dropdown toggle */
