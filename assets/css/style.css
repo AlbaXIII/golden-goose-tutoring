@@ -232,6 +232,11 @@ ul {
     font-size: 1em;
 }
 
+#review-link a:link {
+    text-decoration: none;
+    color: #3e6cd6;
+}
+
 /* contact styles */
 
 #form {
