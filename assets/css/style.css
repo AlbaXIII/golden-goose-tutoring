@@ -150,7 +150,7 @@ main {
 #profile-picture {
     height: 250px;
     width: 100%;
-    background: url('../images/pexels-gustavo-fring-4173104.jpg') no-repeat center center/cover;
+    background: url('../images/profilepicresized.webp') no-repeat center center/cover;
     background-size: contain;
     background-position: top;
     border-radius: 50px;
