@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border-bottom: 2px solid #e78628;
+    border-bottom: 3px solid #e78628;
     background-color: #e6e8d6;
 }
 
@@ -76,7 +76,7 @@ nav {
 /* dropdown toggle */
 #menu-toggle:checked~nav {
     display: block;
-    border-bottom: 2px solid #e78628;
+    border-bottom: 3px solid #e78628;
 }
 
 #menu-toggle {
@@ -328,6 +328,12 @@ iframe {
     max-width: 100%;
 }
 
+#goodbye {
+    text-align: center;
+    color: #333;
+    padding: 100px;
+}
+
 /* confirmation styles */
 #confirmation {
     text-align: center;
@@ -342,7 +348,7 @@ iframe {
 footer {
     z-index: 99;
     background-color: #e6e8d6;
-    border-top: 1px solid #e78628;
+    border-top: 3px solid #e78628;
 }
 
 #socials {
@@ -450,7 +456,7 @@ footer {
         float: left;
         width: 50%;
         font-size: 1rem;
-        padding-left: 120px;
+        padding-left: 170px;
     }
 
     form {
