@@ -249,7 +249,6 @@ ul {
     color: #333;
     text-align: center;
     padding-bottom: 10px;
-    font-size: 14px;
 }
 
 #form form {
@@ -262,13 +261,25 @@ ul {
     text-align: left;
 }
 
+input[type=text] {
+    font-size: 16px;
+}
+
+input[type=email] {
+    font-size: 16px;
+}
+
+input[type=textarea] {
+    font-size: 16px;
+}
+
 #name-inputs input, #email-input input {
     display: flex;
     height: 3vh;
 }
 
 #email-input input {
-    width: 75%;
+    width: 60%;
 }
 
 #form textarea {
@@ -433,12 +444,13 @@ footer {
     #form {
         float: left;
         width: 50%;
-        font-size: 2vw;
-        padding-left: 20px;
+        font-size: 1rem;
+        padding-left: 120px;
     }
 
     form {
         padding-top: 50px;
+        padding-left: 50px;
     }
 
     #name-inputs input {
