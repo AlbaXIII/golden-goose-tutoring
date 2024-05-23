@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border-bottom: 3px solid #e78628;
+    border-bottom: 3px solid #ff5c33;
     background-color: #e6e8d6;
 }
 
@@ -39,7 +39,7 @@ header a {
 h1 {
     font-family: 'Teachers', sans-serif; 
     font-size: 1.5em;
-    color: #e78628;
+    color: #ff5c33;
 }
 
 #menu {
@@ -54,7 +54,7 @@ h1 {
 
 .active {
     text-transform: uppercase;
-    color: #e78628;
+    color: #ff5c33;
 }
 
 #menu > li:hover {
@@ -76,7 +76,7 @@ nav {
 /* dropdown toggle */
 #menu-toggle:checked~nav {
     display: block;
-    border-bottom: 3px solid #e78628;
+    border-bottom: 3px solid #ff5c33;
 }
 
 #menu-toggle {
@@ -348,7 +348,7 @@ iframe {
 footer {
     z-index: 99;
     background-color: #e6e8d6;
-    border-top: 3px solid #e78628;
+    border-top: 3px solid #ff5c33;
 }
 
 #socials {
@@ -362,7 +362,7 @@ footer {
 #socials i {
     font-size: 175%;
     padding: 5%;
-    color: #e78628;
+    color: #ff5c33;
 }
 
 #socials i:hover {
