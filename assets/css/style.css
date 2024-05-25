@@ -144,7 +144,7 @@ main {
 #profile-picture {
     height: 250px;
     width: 100%;
-    background: url('../images/profilepicresized.webp') no-repeat center center/cover;
+    background: url('../images/profile-pic-resized.webp') no-repeat center center/cover;
     background-size: contain;
     background-position: top;
     border-radius: 50px;
