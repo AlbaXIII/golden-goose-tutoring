@@ -274,7 +274,7 @@ input[type=textarea] {
 }
 
 #email-input input {
-    width: 35%;
+    width: 250px;
 }
 
 #form textarea {
@@ -288,12 +288,12 @@ input[type=textarea] {
 #form > h2 {
     margin-top: 50px;
     font-family: 'Patrick Hand', sans-serif;
-    font-size: 3.5vw;
+    font-size: 250%;
     padding-right: 50px;
 }
 
 #form > h3 {
-    font-size: 2.5vw;
+    font-size: 150%;
     padding-right: 50px;
 }
 
@@ -449,7 +449,6 @@ footer {
     #form {
         float: left;
         width: 50%;
-        font-size: 1rem;
         padding-left: 170px;
     }
 
@@ -463,7 +462,7 @@ footer {
     }
 
     #email-input input {
-        width: 75%;
+        width:75%;
     }
 
     #form textarea {
