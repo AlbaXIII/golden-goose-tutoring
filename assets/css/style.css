@@ -480,6 +480,11 @@ footer {
         width: 37%;
     }
 
+    #goodbye {
+        padding-top: 200px;
+        font-size: 1.5vw;
+    }
+
 }
 
 /* media query 2 - laptops and larger */
