@@ -274,7 +274,7 @@ input[type=textarea] {
 }
 
 #email-input input {
-    width: 60%;
+    width: 35%;
 }
 
 #form textarea {
@@ -288,12 +288,12 @@ input[type=textarea] {
 #form > h2 {
     margin-top: 50px;
     font-family: 'Patrick Hand', sans-serif;
-    font-size: 200%;
+    font-size: 3.5vw;
     padding-right: 50px;
 }
 
 #form > h3 {
-    font-size: 160%;
+    font-size: 2.5vw;
     padding-right: 50px;
 }
 
