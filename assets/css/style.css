@@ -310,6 +310,7 @@ input[type=textarea] {
     color: #333;
     padding-top: 10px;
     font-family: 'Patrick Hand', sans-serif;
+    text-align: center;
 }
 
 #contact-details i {
