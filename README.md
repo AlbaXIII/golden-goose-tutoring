@@ -1,9 +1,11 @@
 # Golden Goose Tutoring
 
 Golden Goose Tutoring is an idea for a private tutoring business that my wife is starting in the summer of 2024.
-She will be providing 1-to-1 tutoring to Key Stage 2 Children in the local area of Manchester, UK.
+She will be providing 1-to-1 tutoring to Key Stage 2 Children in the local area of Manchester, UK. 
 
-As this will be her first time going freelance, she will need an accessible, functional website to entice potential clients to schedule her services. Particular emphasis will be put on creating a clear, attractive layout explaining what to expect from the business, prices and business times.
+As this will be her first time going freelance, she will need an accessible, functional and attractive website to entice potential clients to schedule her services. Particular emphasis will be put on creating a clear, intuitive layout explaining what to expect from the business, prices and business times.
+
+This is not a finalised business website, and just an idea of what could be offered.
 
 ## Features
 
@@ -41,6 +43,8 @@ As this will be her first time going freelance, she will need an accessible, fun
         * Beneath/alongside the form is a list of contact methods and hours, displayed in a list form, and an iframe from google maps displaying the 'catchment area'.
         * This is an important feature for user to be able to contact the business with adhoc requests and gain insight into the location of services offered.
         * The list is punctuated with favicons, and presented in a larger font to provide emphasis.
+    * __Goodbye section__ 
+        * At the bottom of the page is a message thanking users for their interest, and the logo repeated underneath to bookend the website.
 
 * __Confirmation page__
     * Upon completion of the form, users will be redirected to a confirmation page acknowledging receipt of the data by way of centered text. Beneath the text is a return button styled identically to the submit buttons from the index page and contact page.
