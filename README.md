@@ -26,6 +26,7 @@ As this will be her first time going freelance, she will need an accessible, fun
         * Certain key phrases in the services section are shown in __bold__ to draw the users eye to the key information offered by the service.
 
 * __Testimonials page__
+    * __Disclaimer - the testimonials in this section are a mix of existing clients and example text, all existing clients & children have been used with their consent and have had their names and addresses adjusted to maintain total privacy.__
     * For a parent to choose a tutoring service, word of mouth is often a very important factor in the decision to use a particular tutor. Therefore having a standalone testimonials page ensures that a whole page is given over to this information, as references are very important in engagement with parents and teachers.
     * There are four testimonials on the page, with the contributors names in bold and favicon quotation marks at the start and end for a little flair, and to punctuate the text blocks.
     * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in a larger font and centered position to draw the eye of the user.
@@ -34,12 +35,15 @@ As this will be her first time going freelance, she will need an accessible, fun
     * As with the main page, the following sections are displayed sequentially on mobiles and side-by-side on devices of XX pixels and larger.
     * __Contact Form section__
         * This form is to collect details from prospective parents, in order to establish a line of communication to the tutor.
-        * The inputs collected are first name, last name, email and a small blurb placed in a text box about the child in question.
+        * The inputs collected are first name, last name, email and a small blurb placed in a text box about the child in question, each input being required for successful use of the form element.
         * Allowing a textarea element in the form is key as the user/parent will likely need a larger space to enter information about their child, which is more difficult to achieve with more 'formal' elements in a contact form.
     * __Contact details section__
         * Beneath/alongside the form is a list of contact methods and hours, displayed in a list form, and an iframe from google maps displaying the 'catchment area'.
         * This is an important feature for user to be able to contact the business with adhoc requests and gain insight into the location of services offered.
         * The list is punctuated with favicons, and presented in a larger font to provide emphasis.
+
+* __Confirmation page__
+    * Upon completion of the form, users will be redirected to a confirmation page acknowledging receipt of the data by way of centered text. Beneath the text is a return button styled identically to the submit buttons from the index page and contact page.
 
 * __Footer__
     * The footer on all pages are four evenly spaced icons for social media sites; Facebook, Twitter, Discord and Instagram. These links open into new tabs and can be accessed at any time during site navigation to allow for users to explore extra resources relevant to the business.
@@ -48,21 +52,38 @@ As this will be her first time going freelance, she will need an accessible, fun
 
 ## Testing
 
+### Validators
+
+### Funtional Testing
 
 
 ## Bugs & Issues
 
+### Development
 * Form
 * Floating sections
 
+### Unfixed Bugs
+* None
+
 ## Deployment
+
+## Technologies Used
+* HTML
+* CSS
+* Adobe Photoshop
 
 ## Credits
 
 ### Content
+* Collapseable nav bar menu based on template from Love Running CI walkthrough project.
 
 ### Media
+* Profile picture provided by https://www.pexels.com.
+* Logo based on Untitled Goose Game by House House Games.
 
+### Personal
+* Thank you to the client for the idea and creative input.
 
 
 
