@@ -443,7 +443,7 @@ footer {
         margin:0 20%;
     }
 
-    #testimonial-left, #testimonial-right {
+    .testimonial-left, .testimonial-right {
         padding-top: 75px;
         padding-bottom: 75px;
         font-size: 1.5rem;
