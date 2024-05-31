@@ -28,7 +28,7 @@ As this would be her first time going freelance, she will need an accessible, fu
         * Certain key phrases in the services section are shown in __bold__ to draw the users eye to the key information offered by the service.
 
 * __Testimonials page__
-    * __Disclaimer - the testimonials in this section are a mix of existing clients and example text, all existing clients & children have been used with their consent and have had their names and addresses adjusted to maintain total privacy.__
+    * __Disclaimer - the testimonials in this section are a mix of existing clients and example text, all existing clients & children have been used with their consent and have had their names and places of residence adjusted to maintain total privacy.__
     * For a parent to choose a tutoring service, word of mouth is often a very important factor in the decision to use a particular tutor. Therefore having a standalone testimonials page ensures that a whole page is given over to this information, as references are very important in engagement with parents and teachers.
     * There are four testimonials on the page, with the contributors names in bold and favicon quotation marks at the start and end for a little flair, and to punctuate the text blocks.
     * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in a larger font and centered position to draw the eye of the user.
@@ -56,7 +56,20 @@ As this would be her first time going freelance, she will need an accessible, fu
 
 ## Testing
 
-As previously mentioned, the site is fully reactive between screens of different sizes, and was developed primarily in __mobile view__ on the smallest available screen size (Galaxy Z Fold 5) before being adapted to desktop through the use of CSS media queries.
+As previously mentioned, the site is fully reactive between screens of different sizes, and was developed primarily in __mobile view__ on the smallest available screen size (Galaxy Z Fold 5) before being adapted to desktop through the use of CSS media queries. For and exhaustive list of devices, see below;
+
+* 
+
+
+
+Throughout development of the project, I used [Google Chrome developer tools](https://developer.chrome.com/docs/devtools) to monitor the output of the website and test reponsiveness from start to finish.
+
+Additionally to Chrome, the site has been tested on the following browsers;
+* Mozilla FireFox
+* Microsoft Edge
+* Safari
+
+No significant differences using the site reported between each browser.
 
 
 
@@ -65,12 +78,21 @@ As previously mentioned, the site is fully reactive between screens of different
 HTML
 * No errors were returned when running the site through the official W3C validator.
 
+![html validator score](readme-images/html-validator.PNG)
+
 CSS
 * No errors were returned when running the site through the official Jigsaw validator.
 
+![css validator score](readme-images/css-validator.PNG)
+
 Lighthouse
 
+* Mobile
+
 ![Google Dev Tools Lighthouse mobile score](readme-images/index-lighthouse-mobile.PNG)
+
+* Desktop
+
 ![Google Dev Tools Lighthouse desktop score](readme-images/index-lighthouse-desktop.PNG)
 
 ### Funtional Testing
@@ -127,6 +149,7 @@ The live link is found through this address - __[https://albaxiii.github.io/gold
 
 ### Personal
 * Many thanks to the client for the idea and creative input.
+* My mentor Dick Vlaanderen for his advice and constructive input throughout.
 
 
 
