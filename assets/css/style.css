@@ -425,7 +425,7 @@ footer {
     }
     
     #about p {
-        padding: 0 20 20 20px;
+        padding: 0px 20px 20px 20px;
         max-width: 50%;
         margin-left: 25%;
     }
