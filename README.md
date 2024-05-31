@@ -68,8 +68,10 @@ HTML
 CSS
 * No errors were returned when running the site through the official Jigsaw validator.
 
-Google Dev Tools Lighthouse
-[index page lighthouse desktop score](https://albaxiii.github.io/golden-goose-tutoring/readme-images/index-lighthouse-desktop.png) 
+Lighthouse
+
+![Google Dev Tools Lighthouse mobile score](readme-images/index-lighthouse-mobile.PNG)
+![Google Dev Tools Lighthouse desktop score](readme-images/index-lighthouse-desktop.PNG)
 
 ### Funtional Testing
 
