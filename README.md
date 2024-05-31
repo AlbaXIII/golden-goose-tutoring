@@ -1,24 +1,24 @@
 # Golden Goose Tutoring
 
-Golden Goose Tutoring is an idea for a private tutoring business that my wife is starting in the summer of 2024.
-She will be providing 1-to-1 tutoring to Key Stage 2 Children in the local area of Manchester, UK. 
+Golden Goose Tutoring is an idea for a private tutoring business that my wife is starting in the summer of 2024, so I had the idea of creating her a sample website that coincides with the learning goals of Project 1, so she could see the potential of a strong web presence when starting a business.
 
-As this will be her first time going freelance, she will need an accessible, functional and attractive website to entice potential clients to schedule her services. Particular emphasis will be put on creating a clear, intuitive layout explaining what to expect from the business, prices and business times.
+For the service itself, she will be providing 1-to-1 tutoring to Key Stage 2 and SEN (Special Educational Needs) children in the local area of Manchester, UK. 
 
-This is not a finalised business website, and just an idea of what could be offered.
+As this would be her first time going freelance, she will need an accessible, functional and attractive website to entice potential clients to schedule her services. Particular emphasis will be put on creating a clear, intuitive layout explaining what to expect from the business, prices and business times. 
+
 
 ## Features
 
 * __Navigation & Header__
     * Featured at the top left of the page as the header, the business name - Golden Goose Tutoring - and the links to the other pages displayed to the right.
-    * When displayed on mobile & screens smaller than XX, the burger icon to the top right of the screen opens up to display the links to the other pages - Home, Testimonials and Contact - and collapses back when clicked again using a CSS checkbox.
-    * On screens larger than XX, links to other pages are displayed the top right hand side of the page to maintain accessibility.
+    * When displayed on mobile & screens smaller than __767px__, the burger icon to the top right of the screen opens up to display the links to the other pages - Home, Testimonials and Contact - and collapses back when clicked again using a CSS checkbox.
+    * On screens larger than __767__, links to other pages are displayed the top right hand side of the page to maintain accessibility.
     * The font is a curverd, child-like font colored orange against an off-white background for ease of visual access, and the navigation bar maintain the font & color scheme.
 
 * __Main Home page__
     * The main home page of the site is split into 3 sections. In mobile view the sections are stacked vertically as the user scrolls, and on tablets and larger the main logo and text sits above the about and profile sections. Reactive CSS has been used to see the transformation when condensing and expanding the page for maximum accessibility.
     * __Main text section__
-        * The main logo is a simple image with a humerous edge that should engage potential users, and sits in the middle of the page to establish visual flow.
+        * The main logo is a simple image with a humerous edge (see credits) that should engage potential users, and sits in the middle of the page to establish visual flow.
         * Beneath the main logo is the main information and function of the site - what the service is, who could be applicable, area served and price.
         * The text is in the 'Teachers' font in black to provide clean contrast from the background and has a connection to schools and learning.
     * __Profile & Services section__
@@ -34,7 +34,7 @@ This is not a finalised business website, and just an idea of what could be offe
     * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in a larger font and centered position to draw the eye of the user.
 
 * __Contact page__
-    * As with the main page, the following sections are displayed sequentially on mobiles and side-by-side on devices of XX pixels and larger.
+    * As with the main page, the following sections are displayed sequentially on mobiles and side-by-side on devices of 767 pixels and larger.
     * __Contact Form section__
         * This form is to collect details from prospective parents, in order to establish a line of communication to the tutor.
         * The inputs collected are first name, last name, email and a small blurb placed in a text box about the child in question, each input being required for successful use of the form element.
@@ -56,7 +56,17 @@ This is not a finalised business website, and just an idea of what could be offe
 
 ## Testing
 
+As previously mentioned, the site is fully reactive between screens of different sizes, and was developed primarily in __mobile view__ on the smallest available screen size (Galaxy Z Fold 5) before being adapted to desktop through the use of CSS media queries.
+
+
+
 ### Validators
+
+HTML
+* No errors were returned when running the site through the official W3C validator
+
+CSS
+* No errors were returned when running the site through the official Jigsaw validator
 
 ### Funtional Testing
 
@@ -68,7 +78,7 @@ This is not a finalised business website, and just an idea of what could be offe
 * Floating sections
 
 ### Unfixed Bugs
-* None
+* None at time of deployment.
 
 ## Deployment
 
@@ -80,14 +90,18 @@ This is not a finalised business website, and just an idea of what could be offe
 ## Credits
 
 ### Content
-* Collapseable nav bar menu based on template from Love Running CI walkthrough project.
+* Collapseable nav bar menu, reactive header and footer based on template from Love Running CI walkthrough project.
 
 ### Media
-* Profile picture provided by https://www.pexels.com.
-* Logo based on Untitled Goose Game by House House Games.
+* Profile picture provided by [Pexels](https://www.pexels.com).
+* Logo based on Untitled Goose Game by House House Games, adapted from a .psd file made available on this [Dropbox link](https://www.dropbox.com/scl/fi/cim3hnr1yyojm09l0fx39/gooseexploitable.psd?rlkey=bsxg828uvydp06k2ikf8rzy47&e=1&dl=0), originally found on [Reddit](https://www.reddit.com/r/untitledgoosegame/comments/exjet2/i_made_a_psd_so_that_you_can_exploit_our_favorite/). __All copyrights reserved by House House Games__.
+* Icons on home, contact & footer taken from [Font Awesome](https://www.fontawesome.com).
+* Favicon made from image sourced on [Reddit](https://www.reddit.com/r/untitledgoosegame/comments/i9pxtq/i_was_looking_for_a_goose_stealing_someting_png/) and converted using [Favicon.io](https://favicon.io/favicon-converter/).
+* PNG files converted to WEBP through [CloudConvert](https://cloudconvert.com/png-to-webp).
+* Iframe embedded from [Google Maps](https://www.google.com/maps).
 
 ### Personal
-* Thank you to the client for the idea and creative input.
+* Many thanks to the client for the idea and creative input.
 
 
 
