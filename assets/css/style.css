@@ -217,6 +217,7 @@ ul li {
 
 #testimonials {
     color: #333;
+    padding: 10px;
 }
 
 #testimonials h3 {
@@ -233,17 +234,17 @@ ul li {
     padding: 5px;
 }
 
-#testimonial-left {
+.testimonial-left {
     text-align: left;
     padding: 15px;
-    line-height: 27px;
+    line-height: 35px;
     font-size: 1em;
 }
 
-#testimonial-right {
+.testimonial-right {
     text-align: right;
     padding: 15px;
-    line-height: 27px;
+    line-height: 35px;
     font-size: 1em;
 }
 
@@ -546,10 +547,6 @@ footer {
 
     #form textarea {
         height: 300px;
-    }
-
-    #goodbye {
-
     }
 
 }
