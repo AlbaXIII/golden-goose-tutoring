@@ -261,7 +261,8 @@ ul li {
     display: flex;
     flex-direction:column;
     text-align: left;
-    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-size: 20px;
 }
 
@@ -337,13 +338,12 @@ iframe {
 #goodbye {
     text-align: center;
     color: #333;
-    padding: 100px;
     font-family: 'Patrick Hand', sans-serif;
 }
 
 #goodbye-image {
-    width: 20%;
-    height: 20%;
+    height: 15%;
+    width: 15%;
 }
 
 /* confirmation styles */
@@ -510,8 +510,12 @@ footer {
 
     /* goodbye */
     #goodbye {
-        padding-top: 150px;
         font-size: 1.5vw;
+        margin-top: 220px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 25px;
+        padding:50px;
     }
 
 }
@@ -542,6 +546,10 @@ footer {
 
     #form textarea {
         height: 300px;
+    }
+
+    #goodbye {
+
     }
 
 }
