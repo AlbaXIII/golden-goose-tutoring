@@ -63,10 +63,13 @@ As previously mentioned, the site is fully reactive between screens of different
 ### Validators
 
 HTML
-* No errors were returned when running the site through the official W3C validator
+* No errors were returned when running the site through the official W3C validator.
 
 CSS
-* No errors were returned when running the site through the official Jigsaw validator
+* No errors were returned when running the site through the official Jigsaw validator.
+
+Google Dev Tools Lighthouse
+[index page lighthouse desktop score](https://albaxiii.github.io/golden-goose-tutoring/readme-images/index-lighthouse-desktop.png) 
 
 ### Funtional Testing
 
@@ -99,7 +102,7 @@ The live link is found through this address - __[https://albaxiii.github.io/gold
     * Copying the URL to clipboard.
     * Opening a Git Bash or other command-line interface.
     * Select your desired location.
-    * Copying the URL into the window, and running __git clone https://albaxiii.github.io/golden-goose-tutoring/index.html__
+    * Copying the URL into the window, and running __git clone https://albaxiii.github.io/golden-goose-tutoring/index.html__.
 
 ## Technologies Used
 * HTML
@@ -113,7 +116,8 @@ The live link is found through this address - __[https://albaxiii.github.io/gold
 
 ### Media
 * Profile picture provided by [Pexels](https://www.pexels.com).
-* Logo based on Untitled Goose Game by House House Games, adapted from a .psd file made available on this [Dropbox link](https://www.dropbox.com/scl/fi/cim3hnr1yyojm09l0fx39/gooseexploitable.psd?rlkey=bsxg828uvydp06k2ikf8rzy47&e=1&dl=0), originally found on [Reddit](https://www.reddit.com/r/untitledgoosegame/comments/exjet2/i_made_a_psd_so_that_you_can_exploit_our_favorite/). __All copyrights reserved by House House Games__.
+* Logo based on Untitled Goose Game by House House Games, adapted from a .psd file made available on this [Dropbox link](https://www.dropbox.com/scl/fi/cim3hnr1yyojm09l0fx39/gooseexploitable.psd?rlkey=bsxg828uvydp06k2ikf8rzy47&e=1&dl=0), originally found on [Reddit](https://www.reddit.com/r/untitledgoosegame/comments/exjet2/i_made_a_psd_so_that_you_can_exploit_our_favorite/). 
+    * __All copyrights reserved by House House Games__
 * Icons on home, contact & footer taken from [Font Awesome](https://www.fontawesome.com).
 * Favicon made from image sourced on [Reddit](https://www.reddit.com/r/untitledgoosegame/comments/i9pxtq/i_was_looking_for_a_goose_stealing_someting_png/) and converted using [Favicon.io](https://favicon.io/favicon-converter/).
 * PNG files converted to WEBP through [CloudConvert](https://cloudconvert.com/png-to-webp).
