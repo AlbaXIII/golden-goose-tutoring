@@ -258,6 +258,8 @@ ul li {
     display: flex;
     flex-direction:column;
     text-align: left;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
 
 input[type=text] {
