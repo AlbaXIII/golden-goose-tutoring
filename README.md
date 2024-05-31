@@ -11,37 +11,75 @@ As this would be her first time going freelance, she will need an accessible, fu
 
 * __Navigation & Header__
     * Featured at the top left of the page as the header, the business name - Golden Goose Tutoring - and the links to the other pages displayed to the right.
+
+        ![header desktop size](readme-images/index-header-desktop.PNG)
+
     * When displayed on mobile & screens smaller than __767px__, the burger icon to the top right of the screen opens up to display the links to the other pages - Home, Testimonials and Contact - and collapses back when clicked again using a CSS checkbox.
-    * On screens larger than __767__, links to other pages are displayed the top right hand side of the page to maintain accessibility.
-    * The font is a curverd, child-like font colored orange against an off-white background for ease of visual access, and the navigation bar maintain the font & color scheme.
+
+        ![index menu collapsed mobile size](readme-images/index-header-mobile.PNG)
+    
+        ![index menu deployed movile size](readme-images/index-header-mobile-menu.PNG)
+
+    * On screens larger than __767px__, links to other pages are displayed the top right hand side of the page to maintain accessibility.
+    * The font is a plain __'Teachers'__ font colored orange against an off-white background for ease of visual access, and the navigation bar maintain the font & color scheme.
 
 * __Main Home page__
     * The main home page of the site is split into 3 sections. In mobile view the sections are stacked vertically as the user scrolls, and on tablets and larger the main logo and text sits above the about and profile sections. Reactive CSS has been used to see the transformation when condensing and expanding the page for maximum accessibility.
+
+        ![index main logo desktop size](readme-images/index-main-logo-desktop.PNG)
+
+        ![index about and services sections desktop size](readme-images/index-about-services-desktop.PNG)
+
     * __Main text section__
-        * The main logo is a simple image with a humerous edge (see credits) that should engage potential users, and sits in the middle of the page to establish visual flow.
+        * The main logo is a simple image on a custom blue background with a humorous edge (see credits) that should engage potential users, and sits in the middle of the page to establish visual flow.
+
+            ![index main logo mobile size](readme-images/index-main-logo-mobile.PNG)
+
         * Beneath the main logo is the main information and function of the site - what the service is, who could be applicable, area served and price.
-        * The text is in the 'Teachers' font in black to provide clean contrast from the background and has a connection to schools and learning.
+        * The text is in the __'Teachers'__ font in black to provide clean contrast from the background and has a connection to schools and learning.
     * __Profile & Services section__
         * In the profile section, there is a profile-style image of the tutor, with qualifications and employment history summarised in a brief text block.
         * This is an important inclusion as it will establish a quasi-personal connection between the user and the service.
+
+            ![index profile section mobile size](readme-images/index-about-mobile.PNG)
+
         * The services section, placed below/alongside the profile gives a succint summary in list form  of the benefits of choosing Golden Goose as a tutoring service, with favicons alongside each item to increase visual engagement.
+            
+            ![index services section mobile size](readme-images/index-services-mobile.PNG)
+
         * Certain key phrases in the services section are shown in __bold__ to draw the users eye to the key information offered by the service.
 
 * __Testimonials page__
     * __Disclaimer - the testimonials in this section are a mix of existing clients and example text, all existing clients & children have been used with their consent and have had their names and places of residence adjusted to maintain total privacy.__
     * For a parent to choose a tutoring service, word of mouth is often a very important factor in the decision to use a particular tutor. Therefore having a standalone testimonials page ensures that a whole page is given over to this information, as references are very important in engagement with parents and teachers.
+
+        ![testimonial page example inpue mobile size](readme-images/testimonials-mobile.PNG)
+
     * There are four testimonials on the page, with the contributors names in bold and favicon quotation marks at the start and end for a little flair, and to punctuate the text blocks.
-    * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in a larger font and centered position to draw the eye of the user.
+    * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in the same style as the contact button from the home page to draw the eye of the user whilst maintaining visual consistency.
+
+        ![testimonial page review link size](readme-images/testimonials-review-mobile.PNG)
+
+
 
 * __Contact page__
     * As with the main page, the following sections are displayed sequentially on mobiles and side-by-side on devices of 767 pixels and larger.
+
+        ![contact page form & details desktop size](readme-images/contact-form-details-desktop.PNG)
+
     * __Contact Form section__
         * This form is to collect details from prospective parents, in order to establish a line of communication to the tutor.
         * The inputs collected are first name, last name, email and a small blurb placed in a text box about the child in question, each input being required for successful use of the form element.
+
+            ![contact page form section mobile size](readme-images/contact-form-mobile.PNG)
+
         * Allowing a textarea element in the form is key as the user/parent will likely need a larger space to enter information about their child, which is more difficult to achieve with more 'formal' elements in a contact form.
     * __Contact details section__
         * Beneath/alongside the form is a list of contact methods and hours, displayed in a list form, and an iframe from google maps displaying the 'catchment area'.
         * This is an important feature for user to be able to contact the business with adhoc requests and gain insight into the location of services offered.
+
+            ![contact page contact details section mobile size](readme-images/contact-details-mobile.PNG)
+
         * The list is punctuated with favicons, and presented in a larger font to provide emphasis.
     * __Goodbye section__ 
         * At the bottom of the page is a message thanking users for their interest, and the logo repeated underneath to bookend the website.
@@ -49,8 +87,13 @@ As this would be her first time going freelance, she will need an accessible, fu
 * __Confirmation page__
     * Upon completion of the form, users will be redirected to a confirmation page acknowledging receipt of the data by way of centered text. Beneath the text is a return button styled identically to the submit buttons from the index page and contact page.
 
+        ![confirmation page mobile size](readme-images/confirmation-mobile.PNG)
+
 * __Footer__
     * The footer on all pages are four evenly spaced icons for social media sites; Facebook, Twitter, Discord and Instagram. These links open into new tabs and can be accessed at any time during site navigation to allow for users to explore extra resources relevant to the business.
+
+        ![Footer with social media icons](readme-images/footer-mobile.PNG)
+
     * Each icon maintains the header color scheme of a white background with orange icons, which tops and tails the site with a consistent visual theme. 
     * As with the header, the footer is also responsive and the spacing and size of the icons will react to differing device sizes.
 
@@ -58,9 +101,15 @@ As this would be her first time going freelance, she will need an accessible, fu
 
 As previously mentioned, the site is fully reactive between screens of different sizes, and was developed primarily in __mobile view__ on the smallest available screen size (Galaxy Z Fold 5) before being adapted to desktop through the use of CSS media queries. For and exhaustive list of devices, see below;
 
-* 
-
-
+* Galaxy Z Fold 5 (344x822)
+* iPhone 12 Pro (390x844)
+* Google Pixel 7, Samsung Galazy S20 Ultra (412x915)
+* iPhone XR (414x896)
+* iPhone 14 Pro Max (430x932)
+* iPad Mini (768x1024)
+* iPad Air (820x1180)
+* iPad Pro (1024x1366)
+* Desktop (1920x1080)
 
 Throughout development of the project, I used [Google Chrome developer tools](https://developer.chrome.com/docs/devtools) to monitor the output of the website and test reponsiveness from start to finish.
 
@@ -71,17 +120,15 @@ Additionally to Chrome, the site has been tested on the following browsers;
 
 No significant differences using the site reported between each browser.
 
-
-
 ### Validators
 
 HTML
-* No errors were returned when running the site through the official W3C validator.
+* No errors were returned when running the site through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Falbaxiii.github.io%2Fgolden-goose-tutoring%2F).
 
 ![html validator score](readme-images/html-validator.PNG)
 
 CSS
-* No errors were returned when running the site through the official Jigsaw validator.
+* No errors were returned when running the site through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/). 
 
 ![css validator score](readme-images/css-validator.PNG)
 
