@@ -334,8 +334,8 @@ iframe {
 }
 
 #goodbye-image {
-    width: 25%;
-    height: 25%;
+    width: 100px;
+    height: 100px;
 }
 
 /* confirmation styles */
@@ -459,7 +459,7 @@ footer {
     #form {
         float: left;
         width: 50%;
-        padding-left: 170px;
+        padding-left: 50px;
     }
 
     form {
@@ -500,6 +500,12 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3e6cd6;
+    }
+
+    #form {
+        float: left;
+        width: 50%;
+        padding-left: 150px;
     }
 
 }
