@@ -421,7 +421,7 @@ footer {
     /* index */
     #about {
         float: left;
-        width: 50%;
+        width: 40%;
         font-size: 120%;
         margin-top: 50px;
         margin-bottom: 60px;
@@ -429,15 +429,18 @@ footer {
     }
     
     #about p {
-        padding: 0px 20px 20px 20px;
         max-width: 50%;
         margin-left: 25%;
+        font-size: 120%;
     }
 
     #services {
-        padding-left: 10px;
+        padding-left: 100px;
         font-size: 120%;
         margin-top: 50px;
+        margin-right: 50px;
+        width: 45%;
+        float: right;
     }
 
     #services-list {
@@ -505,6 +508,14 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3e6cd6;
+    }
+
+    #services {
+        padding-left: 200px;
+    }
+
+    #about {
+        padding-left: 150px;
     }
 
     #form {
