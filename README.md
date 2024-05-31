@@ -82,6 +82,25 @@ CSS
 
 ## Deployment
 
+### Github Pages
+* The site has been deployed on Github pages, deployed by;
+    * Navigating to settings tab on master code repo page.
+    * Clicking on __pages__ from the left hand menu.
+    * Selecting source - deploy from branch and making sure root is selected beneath.
+    * Once these settings are correct, select save.
+    * Returning to the main repo page, and going to the __deployment__ box on the right-hand side, and selecting github pages.
+    * Once in this page, the live link will show at the top of the page.
+
+The live link is found through this address - __[https://albaxiii.github.io/golden-goose-tutoring/](https://albaxiii.github.io/golden-goose-tutoring/)__.
+
+### Cloning
+* The site is also cloneable using the Github;
+    * From the main page repo, selecting the green code button.
+    * Copying the URL to clipboard.
+    * Opening a Git Bash or other command-line interface.
+    * Select your desired location.
+    * Copying the URL into the window, and running __git clone https://albaxiii.github.io/golden-goose-tutoring/index.html__
+
 ## Technologies Used
 * HTML
 * CSS
