@@ -2,7 +2,7 @@
 
 Golden Goose Tutoring is an idea for a private tutoring business that my wife is starting in the summer of 2024, so I had the idea of creating her a sample website that coincides with the learning goals of Project 1, so she could see the potential of a strong web presence when starting a business.
 
-For the service itself, she will be providing 1-to-1 tutoring to Key Stage 2 and SEN (Special Educational Needs) children in the local area of Manchester, UK. 
+For the service itself, she will be providing 1-to-1 or small group tutoring to Key Stage 2 and SEN (Special Educational Needs) children in the local area of south Manchester, UK. 
 
 As this would be her first time going freelance, she will need an accessible, functional and attractive website to entice potential clients to schedule her services. Particular emphasis will be put on creating a clear, intuitive layout explaining what to expect from the business, prices and business times. 
 
@@ -144,6 +144,7 @@ Lighthouse
 
 ### Funtional Testing
 
+![functional testing spreadsheet](<readme-images/CIP1 Functional Testing.webp>)
 
 ## Bugs & Issues
 
