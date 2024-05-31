@@ -333,6 +333,11 @@ iframe {
     padding: 100px;
 }
 
+#goodbye-image {
+    width: 25%;
+    height: 25%;
+}
+
 /* confirmation styles */
 #confirmation {
     text-align: center;
