@@ -334,8 +334,8 @@ iframe {
 }
 
 #goodbye-image {
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
 }
 
 /* confirmation styles */
@@ -491,7 +491,7 @@ footer {
     }
 
     #goodbye {
-        padding-top: 250px;
+        padding-top: 150px;
         font-size: 1.5vw;
     }
 
