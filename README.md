@@ -1,6 +1,6 @@
 # Golden Goose Tutoring
 
-Golden Goose Tutoring is an idea for a private tutoring business that my wife is starting in the summer of 2024. I had the idea of creating her a sample website that coincides with the learning goals of Project 1, so she could see the potential of a strong web presence when starting a business.
+Golden Goose Tutoring is an idea for a private tutoring business that my wife is starting in the summer of 2024. I had the idea of creating a sample website for her that coincides with the learning goals of Project 1, so she could see the potential of a strong web presence when starting a business.
 
 For the service itself, she will be providing 1-to-1 or small group tutoring to Key Stage 2 and SEN (Special Educational Needs) children in the local area of south Manchester, UK. 
 
@@ -25,7 +25,7 @@ As this would be her first time going freelance, she will need an accessible, fu
     * The font is a plain __'Teachers'__ font colored orange against an off-white background for a clean look, and the navigation bar maintain the font & color scheme.
 
 * __Main Home page__
-    * The main home page of the site is split into 3 sections. In mobile view the sections are stacked vertically as the user scrolls, and on tablets and larger the main logo and text sits above the about and profile sections. Reactive CSS has been used to see the transformation when condensing and expanding.
+    * The main home page of the site is split into 3 sections. In mobile view the sections are stacked vertically as the user scrolls, and on tablets and larger screens the main logo and text sits above the about and profile sections. Reactive CSS has been used to see the transformation when condensing and expanding.
 
         ![index main logo desktop size](readme-images/index-main-logo-desktop.PNG)
 
@@ -76,7 +76,7 @@ As this would be her first time going freelance, she will need an accessible, fu
 
         * Allowing a textarea element in the form is key as the user/parent will likely need a larger space to enter information about their child, which is more difficult to achieve with more 'formal' elements in a contact form.
     * __Contact details section__
-        * Beneath/alongside the form is a list of contact methods (with placeholder example details) displayed in a list form, and an iframe from google maps displaying the 'catchment area'.
+        * Beneath/alongside the form is a list of contact methods (with placeholder example details) displayed in a list form, and an iframe from Google Maps displaying the 'catchment area'.
         * This is an important feature for user to be able to contact the business with adhoc requests and gain insight into the location of services offered.
 
             ![contact page contact details section mobile size](readme-images/contact-details-mobile.PNG)
@@ -151,7 +151,7 @@ Lighthouse
 
 ### Development
 * Form elements were getting crushed on transition between mobile and tablet views. I rectified this by adding a second media query on top of the initial tablet to add extra width to the div allowing the element to breathe more on transition.
-* Ensuring the div elements on the index and contact page transitioned from column to side-by-side required investigation on the correct amount of padding and what CSS properties to use. Eventually I used a combination of flex, float and width adjustments to spread the divs apart, and then media quieries to make sure they displayed in line to each other.
+* Ensuring the div elements on the index and contact page transitioned from column to side-by-side required investigation on the correct amount of padding and which CSS properties to use. Eventually I used a combination of flex, float and width adjustments to spread the divs apart, and then media queries to make sure they displayed in line to each other.
 
 ### Unfixed Bugs
 * None at time of deployment.
@@ -159,10 +159,10 @@ Lighthouse
 ## Deployment
 
 ### Github Pages
-* The site has been deployed on Github pages, deployed by;
-    * Navigating to settings tab on master code repo page.
-    * Clicking on __pages__ from the left hand menu.
-    * Selecting source - deploy from branch and making sure root is selected beneath.
+* The site has been deployed on Github pages, using the following method;
+    * In the Github repo, navigate to settings tab on master code repo page.
+    * Click on __pages__ from the left hand menu.
+    * Select source - deploy from branch and making sure root is selected beneath.
     * Once these settings are correct, select save.
     * The live link will show at the top of the page if deployment is successful.
     * Live page can also be accessed afterwards from the main repo, in the deployment box on the right-hand side.
@@ -171,11 +171,11 @@ The live link is found through this address - __[https://albaxiii.github.io/gold
 
 ### Cloning
 * The site is also cloneable using Github;
-    * From the main page repo, selecting the green code button.
+    * From the main page repo, select the green code button.
     * Copying the URL to clipboard.
     * Opening a Git Bash or other command-line interface.
     * Select your desired location.
-    * Copying the URL into the window, and running __git clone https://albaxiii.github.io/golden-goose-tutoring/__.
+    * Copy the URL into the window, and running __git clone https://albaxiii.github.io/golden-goose-tutoring/__.
 
 ## Technologies Used
 * HTML
