@@ -162,7 +162,7 @@ Lighthouse
 * The site has been deployed on Github pages, using the following method;
     * In the Github repo, navigate to settings tab on master code repo page.
     * Click on __pages__ from the left hand menu.
-    * Select source - deploy from branch and making sure root is selected beneath.
+    * Select source - deploy from branch and making sure main/root is selected beneath.
     * Once these settings are correct, select save.
     * The live link will show at the top of the page if deployment is successful.
     * Live page can also be accessed afterwards from the main repo, in the deployment box on the right-hand side.
