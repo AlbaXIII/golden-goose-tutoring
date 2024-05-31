@@ -57,7 +57,7 @@ As this would be her first time going freelance, she will need an accessible, fu
         ![testimonial page example mobile size](readme-images/testimonials-mobile.PNG)
 
     * There are four testimonials on the page, with the contributors names in bold and favicon quotation marks at the start and end for flair, and to punctuate the text blocks.
-    * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in the same style as the contact button from the home page to draw the eye of the user whilst maintaining visual consistency. As the businiess would develop, more examples would be added to the page.
+    * At the bottom of the page is a link to Google business reviews, where encourages users to add their own reviews of the service. This link is presented in the same style as the contact button from the home page to draw the eye of the user whilst maintaining visual consistency. As the business would develop, more examples would be added to the page.
 
         ![testimonial page review link mobile size](readme-images/testimonials-review-mobile.PNG)
 
@@ -172,8 +172,8 @@ The live link is found through this address - __[https://albaxiii.github.io/gold
 ### Cloning
 * The site is also cloneable using Github;
     * From the main page repo, select the green code button.
-    * Copying the URL to clipboard.
-    * Opening a Git Bash or other command-line interface.
+    * Copy the URL to clipboard.
+    * Open Git Bash or other command-line interface.
     * Select your desired location.
     * Copy the URL into the window, and running __git clone https://albaxiii.github.io/golden-goose-tutoring/__.
 
@@ -185,7 +185,7 @@ The live link is found through this address - __[https://albaxiii.github.io/gold
 ## Credits
 
 ### Content
-* Collapseable nav bar menu, reactive header and footer based on template from Love Running CI walkthrough project.
+* Collapseable nav bar menu, reactive header and footer based on template from Love Running CI HTML & CSS walkthrough project.
 
 ### Media
 * Profile picture provided by [Pexels](https://www.pexels.com).
