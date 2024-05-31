@@ -104,6 +104,11 @@ main {
     background-size: 100%;
 }
 
+#main-logo {
+    height: 25%;
+    width: 25%;
+}
+
 #text-box {
     text-align: center;
     font-size: 1.5rem;
