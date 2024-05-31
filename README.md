@@ -75,7 +75,7 @@ As this would be her first time going freelance, she will need an accessible, fu
 
         * Allowing a textarea element in the form is key as the user/parent will likely need a larger space to enter information about their child, which is more difficult to achieve with more 'formal' elements in a contact form.
     * __Contact details section__
-        * Beneath/alongside the form is a list of contact methods and hours, displayed in a list form, and an iframe from google maps displaying the 'catchment area'.
+        * Beneath/alongside the form is a list of contact methods (with placeholder example details) and hours, displayed in a list form, and an iframe from google maps displaying the 'catchment area'.
         * This is an important feature for user to be able to contact the business with adhoc requests and gain insight into the location of services offered.
 
             ![contact page contact details section mobile size](readme-images/contact-details-mobile.PNG)
@@ -150,7 +150,7 @@ Lighthouse
 
 ### Development
 * Form
-* Floating sections
+* Ensuring the div elements on the 
 
 ### Unfixed Bugs
 * None at time of deployment.
