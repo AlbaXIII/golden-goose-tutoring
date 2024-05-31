@@ -95,6 +95,8 @@ main {
 }
 
 /* index styles */
+
+/* logo & main image section */
 #main-image  {
     text-align: center;
     margin-top: 40px;
@@ -247,6 +249,7 @@ ul li {
 
 /* contact styles */
 
+/* contact form section */
 #form {
     color: #333;
     text-align: center;
@@ -312,6 +315,7 @@ input[type=textarea] {
     font-size: 1.2rem;
 }
 
+/* contact details section */
 #contact-details {
     color: #333;
     padding-top: 10px;
@@ -329,6 +333,7 @@ iframe {
     max-width: 100%;
 }
 
+/* goodbye section */
 #goodbye {
     text-align: center;
     color: #333;
@@ -419,6 +424,8 @@ footer {
     }
 
     /* index */
+
+    /* about section floated for side-by-side view */
     #about {
         float: left;
         width: 40%;
@@ -434,6 +441,7 @@ footer {
         font-size: 120%;
     }
 
+    /* services */
     #services {
         padding-left: 100px;
         font-size: 120%;
@@ -463,6 +471,8 @@ footer {
     }
 
     /* contact */
+
+    /* form */
     #form {
         float: left;
         width: 50%;
@@ -487,6 +497,7 @@ footer {
         height: 100%;
     }
 
+    /* contact details */
     #contact-details {
         font-size: 2vw;
         padding-top: 50px;
@@ -497,6 +508,7 @@ footer {
         margin-top: 10px;
     }
 
+    /* goodbye */
     #goodbye {
         padding-top: 150px;
         font-size: 1.5vw;
@@ -506,10 +518,13 @@ footer {
 
 /* media query 2 - laptops and larger */
 @media screen and (min-width: 992px) {
+
+    /* menu */
     #menu a:hover {
         border-bottom: 1px solid #3e6cd6;
     }
 
+    /* index */
     #services {
         padding-left: 200px;
     }
@@ -518,6 +533,7 @@ footer {
         padding-left: 150px;
     }
 
+    /* form */
     #form {
         float: left;
         width: 50%;
