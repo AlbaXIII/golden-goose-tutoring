@@ -145,7 +145,7 @@ Lighthouse
 
 ### Funtional Testing
 
-![functional testing spreadsheet](<readme-images/CIP1 Functional Testing.webp>)
+![functional testing spreadsheet for all actions](readme-images/CIP1-functional-testing.webp)
 
 ## Bugs & Issues
 
