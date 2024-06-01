@@ -150,7 +150,7 @@ Lighthouse
 ## Bugs & Issues
 
 ### Development
-* Form elements were getting crushed on transition between mobile and tablet views. I rectified this by adding a second media query on top of the initial tablet to add extra width to the div allowing the element to breathe more on transition.
+* Form elements were getting crushed on transition between mobile and tablet views. I rectified this by adding a second media query on top of the initial tablet to add extra width to the div allowing the element to breathe more on transition. Due to nature of the iframe element being centred on a particular area there is an element of reduction in the form width but it is accessible at every device size.
 * Ensuring the div elements on the index and contact page transitioned from column to side-by-side required investigation on the correct amount of padding and which CSS properties to use. Eventually I used a combination of flex, float and width adjustments to spread the divs apart, and then media queries to make sure they displayed in line to each other.
 
 ### Unfixed Bugs
