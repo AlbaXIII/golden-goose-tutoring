@@ -17,7 +17,7 @@ body {
     font-family: 'Teachers', sans-serif;
 }
 
-/* header */
+/* header based on love running */
 header {
     padding: 0 1rem;
     position: fixed;
@@ -61,7 +61,7 @@ h1 {
     text-decoration: underline;
 }
 
-/* menu nav bar style */
+/* menu nav bar style based on love running */
 nav {
     position: absolute;
     width: 100%;
@@ -73,7 +73,7 @@ nav {
     background-color: #e6e8d6;
 }
 
-/* dropdown toggle */
+/* dropdown toggle based on love running */
 #menu-toggle:checked~nav {
     display: block;
     border-bottom: 3px solid #ff5c33;
@@ -357,7 +357,7 @@ iframe {
     font-size:200%;
 }
 
-/* footer */
+/* footer based on love running */
 footer {
     z-index: 99;
     background-color: #e6e8d6;

@@ -44,7 +44,7 @@ As this would be her first time going freelance, she will need an accessible, fu
 
             ![index profile section mobile size](readme-images/index-about-mobile.PNG)
 
-        * The services section, placed below/alongside the profile gives a succint summary in list form  of the benefits of choosing Golden Goose as a tutoring service, with favicons alongside each item to increase visual engagement.
+        * The services section, placed below/alongside the profile gives a succinct summary in list form  of the benefits of choosing Golden Goose as a tutoring service, with favicons alongside each item to increase visual engagement.
             
             ![index services section mobile size](readme-images/index-services-mobile.PNG)
 
